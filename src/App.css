@@ -59,7 +59,7 @@
 }
 
 .emblem {
-  height: 4rem;
+  height: 6rem;
 }
 .modal-title {
   color: var(--custom-primary-font);
@@ -71,12 +71,15 @@
   background-color: var(--custom-highlight-primary);
   overflow-y: auto;
   max-height: 550px;
-
+  text-align: start;
 }
 .card-text {
   color: var(--custom-secondary-font);
 }
 
+/* .modal-body {
+
+} */
 
 .emblem-icon {
   background-color: var(--custom-highlight-primary);
@@ -109,4 +112,10 @@
 
 ::-webkit-scrollbar-track {
   background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 436px) {
+  .emblem {
+    height: 5rem;
+  }
 }

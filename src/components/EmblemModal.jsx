@@ -4,7 +4,8 @@ function EmblemModal({ id_modal, modal_id, updateEmblem }) {
   const emblems = [
     {
       name: "Alpha Tester",
-      descricao: "teste",
+      descricao:
+        "Um emblema raro para aqueles que participaram do nosso teste de pré-lançamento.",
       image_path: "./alpha.png",
       creation_date: "01/02/2022",
       active: true,
@@ -13,13 +14,20 @@ function EmblemModal({ id_modal, modal_id, updateEmblem }) {
       name: "Beta Tester",
       descricao: "teste beta",
       image_path: "./beta.png",
-      creation_date: "01/02/2022",
+      creation_date: "01/01/2025",
+      active: true,
+    },
+    {
+      name: "Caçador de bugs",
+      descricao: "Um emblema para aqueles que encontraram bugs na nossa plataforma.",
+      image_path: "./bug_hunter.png",
+      creation_date: "12/09/2024",
       active: true,
     },
   ];
 
   return (
-    <div className="">
+    <div >
       <div
         className="modal fade"
         id={modal_id}
@@ -60,7 +68,11 @@ function EmblemModal({ id_modal, modal_id, updateEmblem }) {
                       {emblema.active && (
                         <button
                           className="btn btn-primary"
-                          onClick={() => updateEmblem(id_modal, emblema.image_path)}
+                          onClick={() =>
+                            updateEmblem(id_modal, emblema.image_path)
+                          }
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
                         >
                           Selecionar
                         </button>

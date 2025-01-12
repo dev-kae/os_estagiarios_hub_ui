@@ -4,8 +4,8 @@ import EmblemModal from "./EmblemModal";
 function UserEmblems() {
   const [selectedEmblem, setSelectedEmblems] = useState([
     { id: 0, emblem: "./alpha.png" },
-    { id: 1, emblem: "./beta.png" },
-    { id: 2, emblem: "./alpha.png" },
+    { id: 1, emblem: "./bug_hunter.png" },
+    { id: 2, emblem: "./beta.png" },
   ]);
 
   const updateEmblem = (index, newEmblem) => {
@@ -26,7 +26,7 @@ function UserEmblems() {
           <div className="col" key={index}>
             <button
               type="button"
-              className="btn p-4 btn-dark"
+              className="btn p-1 m-1 btn-dark"
               data-bs-toggle="modal"
               data-bs-target={`#staticBackdrop-${index}`}
             >
