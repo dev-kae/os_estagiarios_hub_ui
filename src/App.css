@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+  --custom-primary: #3d444c;
+  --custom-secondary: #505a63;
+  --custom-primary-font: #f3f3f3;
+  --custom-secondary-font: #1f2428;
+  --custom-highlight-primary: #1f2428;
+  --custom-highlight-secondary: #098698;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: var(--custom-primary-font);
+}
+
+.custom-color-reward {
+  color: #b9ff66;
+}
+.menu {
+  background-color: var(--custom-highlight-primary);
+  display: flex;
+  width: 100vw;
+  position: fixed;
+}
+.accordion-button {
+  background-color: #32ff0e;
+  color: rgb(9, 255, 0);
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--custom-secondary);
+  color: rgb(245, 56, 56);
+}
+
+.accordion-body {
+  background-color: var(--custom-secondary);
+  color: var(--custom-primary-font);
+}
+
+.app {
+  background-color: var(--custom-primary);
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.container {
+  padding: 3.5rem 10px;
+}
+
+.custom-progress-bar {
+  width: 10%;
+}
+
+.emblem {
+  height: 4rem;
+}
+.modal-title {
+  color: var(--custom-primary-font);
+}
+.modal-header {
+  background-color: var(--custom-secondary);
+}
+.modal-body {
+  background-color: var(--custom-highlight-primary);
+  overflow-y: auto;
+  max-height: 550px;
+
+}
+.card-text {
+  color: var(--custom-secondary-font);
+}
+
+
+.emblem-icon {
+  background-color: var(--custom-highlight-primary);
+}
+
+.box {
+  background-color: var(--custom-secondary);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.box.highlight {
+  background-color: var(--custom-highlight-primary);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--custom-secondary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--custom-primary);
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
