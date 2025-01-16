@@ -11,7 +11,8 @@ function Menu() {
     { label: "profile", route: "/", icon: "bi bi-person" },
     { label: "redeem", route: "redeem", icon: "bi bi-upc-scan" },
     { label: "news", route: "news", icon: "bi bi-newspaper" },
-    { label: "logout", route: "emblems", icon: "bi bi-award" },
+    { label: "signup", route: "signup", icon: "bi bi-award" },
+    { label: "login", route: "login", icon: "bi bi-award" },
   ];
   return (
     <div className="align-items-center menu mb-2 z-3">
