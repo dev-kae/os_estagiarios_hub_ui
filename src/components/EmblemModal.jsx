@@ -11,9 +11,9 @@ function EmblemModal({ id_modal, modal_id, updateEmblem }) {
       active: true,
     },
     {
-      name: "Beta Tester",
+      name: "Influenciador",
       descricao: "teste beta",
-      image_path: "./beta.png",
+      image_path: "./influencer.png",
       creation_date: "01/01/2025",
       active: true,
     },
@@ -22,7 +22,7 @@ function EmblemModal({ id_modal, modal_id, updateEmblem }) {
       descricao: "Um emblema para aqueles que encontraram bugs na nossa plataforma.",
       image_path: "./bug_hunter.png",
       creation_date: "12/09/2024",
-      active: true,
+      active: false,
     },
   ];
 

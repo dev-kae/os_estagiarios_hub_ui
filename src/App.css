@@ -2,11 +2,28 @@
 
 :root {
   --custom-primary: #3d444c;
-  --custom-secondary: #505a63;
+  --custom-secondary: #8a9299;
+
   --custom-primary-font: #f3f3f3;
-  --custom-secondary-font: #1f2428;
-  --custom-highlight-primary: #1f2428;
-  --custom-highlight-secondary: #098698;
+  --custom-secondary-font: #191A23;
+
+  --custom-highlight-primary: #191A23;
+  --custom-highlight-secondary: #58FF49;
+
+}
+
+
+
+.dark-font{
+  color: var(--custom-secondary-font);
+}
+.light-font{
+  color: var(--custom-primary-font);
+}
+
+.custom-bg-green{
+  background-color: var(--custom-highlight-secondary) !important;
+  color: var(--custom-primary-font);
 }
 
 * {
@@ -19,9 +36,6 @@
   color: var(--custom-primary-font);
 }
 
-.custom-color-reward {
-  color: #b9ff66;
-}
 .menu {
   background-color: var(--custom-highlight-primary);
   display: flex;
@@ -34,13 +48,19 @@
   border: none;
 }
 
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .accordion-button:not(.collapsed) {
   background-color: var(--custom-secondary);
   color: rgb(245, 56, 56);
 }
 
 .accordion-body {
-  background-color: var(--custom-secondary);
+  background-color: var(--custom-highlight-primary);
+  border-radius: 0 0 5px 5px;
   color: var(--custom-primary-font);
 }
 
@@ -51,7 +71,7 @@
 }
 
 .container {
-  padding: 3.5rem 10px;
+  padding: 3.5rem 10px 10px 0;
 }
 
 .custom-progress-bar {
@@ -86,7 +106,7 @@
 }
 
 .box {
-  background-color: var(--custom-secondary);
+  background-color: var(--custom-highlight-primary);
   border-radius: 5px;
   padding: 10px;
   margin: 10px 0;
@@ -102,7 +122,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--custom-secondary);
+  background-color: var(--custom-highlight-primary);
   border-radius: 5px;
 }
 

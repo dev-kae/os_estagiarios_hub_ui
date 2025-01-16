@@ -7,12 +7,13 @@ function UserInfo() {
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
             <button
-              className="accordion-button"
+              className="accordion-button bg-light"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
               aria-expanded="false"
               aria-controls="collapseOne"
+              style={{ outline: "none", boxShadow: "none" }}
             >
               Informações da conta
             </button>
@@ -23,7 +24,9 @@ function UserInfo() {
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body">
+            <div
+              className="accordion-body"
+            >
               <label htmlFor="exampleFormControlInput1" className="form-label">
                 Endereço de email
               </label>
@@ -76,7 +79,6 @@ function UserInfo() {
                   aria-label="Username"
                 />
               </div>
-
             </div>
           </div>
         </div>

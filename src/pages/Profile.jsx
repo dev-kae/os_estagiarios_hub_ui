@@ -51,7 +51,7 @@ function Profile() {
           <div className="input-group">
             <input
               type="text"
-              className="form-control"
+              className="form-control bg-light"
               placeholder="XK4LM23K"
               aria-label="Username"
               disabled
@@ -68,7 +68,7 @@ function Profile() {
       <div className="box">
         <div className="row mb-3">
           <div className="col text-center">
-            <button className="btn btn-success w-100">Salvar Alterações</button>
+            <button className="btn custom-bg-green w-100">Salvar Alterações</button>
           </div>
         </div>
         <div className="row">

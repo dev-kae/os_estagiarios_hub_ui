@@ -5,12 +5,12 @@ function Points() {
     <div className="box">
         <div className='row'>
             <div className="col-6">
-            <label htmlFor="exampleFormControlInput1" className="form-label custom-color-reward">
+            <label htmlFor="exampleFormControlInput1" className="form-label light-font">
             Pontos
           </label>
             </div>
             <div className="col-6">
-            <label htmlFor="exampleFormControlInput1" className="form-label custom-color-reward">
+            <label htmlFor="exampleFormControlInput1" className="form-label light-font">
             Emblemas Únicos
           </label>
             </div>

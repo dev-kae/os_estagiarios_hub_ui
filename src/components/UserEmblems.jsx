@@ -3,7 +3,7 @@ import EmblemModal from "./EmblemModal";
 
 function UserEmblems() {
   const [selectedEmblem, setSelectedEmblems] = useState([
-    { id: 0, emblem: "./alpha.png" },
+    { id: 0, emblem: "./influencer.png" },
     { id: 1, emblem: "./bug_hunter.png" },
     { id: 2, emblem: "./beta.png" },
   ]);
